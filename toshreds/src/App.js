@@ -3,7 +3,6 @@ import Game from "./components/Game";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
-import Title from "./components/Title";
 import Footer from "./components/Footer";
 import Characters from "./images.json";
 
@@ -59,11 +58,11 @@ class App extends Component {
           score={this.state.score}
         />
         <Jumbotron />
-        {this.state.Characters.map(Characters => (
+        {this.state.Characters.map(character => (
           <Game
           imageClick = {this.imageClick}
-          id = {Characters.id}
-          image = {Characters.image}
+          id = {character.id}
+          image = {character.image}
           />
         ))}
         <Footer />
