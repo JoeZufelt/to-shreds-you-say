@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "name": "Name",
-        "image": "URL"
+        "name": "Amy Wong",
+        "image": "./components/Icons/amy.png"
     },
     {
         "id": 2,
-        "name": "Name",
-        "image": "URL"
+        "name": "Calculon",
+        "image": "./components/Icons/calculon.png"
     },
     {
         "id": 3,
-        "name": "Name",
-        "image": "URL"
+        "name": "Professor Hubert J. Farnsworth",
+        "image": "./components/Icons/farnsworth.png"
     },
     {
         "id": 4,
-        "name": "Name",
-        "image": "URL"
+        "name": "Philip J. Fry",
+        "image": "./components/Icons/fry.png"
     },
     {
         "id": 5,
-        "name": "Name",
-        "image": "URL"
+        "name": "Bender Bending Rodriguez",
+        "image": "./components/Icons/bender.png"
     },
     {
         "id": 6,
-        "name": "Name",
-        "image": "URL"
+        "name": "Leela",
+        "image": "./components/Icons/leela.png"
     },
     {
         "id": 7,
-        "name": "Name",
-        "image": "URL"
+        "name": "Mom",
+        "image": "./components/Icons/mom.png"
     },
     {
         "id": 8,
-        "name": "Name",
-        "image": "URL"
+        "name": "Lrrr Rule of Omicron Persei 8",
+        "image": "./components/Icons/lurr.png"
     },
     {
         "id": 9,
-        "name": "Name",
-        "image": "URL"
+        "name": "Nibbler",
+        "image": "./components/Icons/nibbler.png"
     },
     {
         "id": 10,
-        "name": "Name",
-        "image": "URL"
+        "name": "Robot Devil",
+        "image": "./components/Icons/devil.png"
     },
     {
         "id": 11,
-        "name": "Name",
-        "image": "URL"
+        "name": "Scruffy the Janitor",
+        "image": "./components/Icons/scruffy.png"
     },
     {
         "id": 12,
-        "name": "Name",
-        "image": "URL"
+        "name": "Dr. John Zoidberg",
+        "image": "./components/Icons/zoidberg.png"
     }
 ]
