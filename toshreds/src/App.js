@@ -8,31 +8,34 @@ import Characters from "./images.json";
 
 class App extends Component {
 
-  state = {
-    Characters,
-    clicked: [],
-    score: 0
+    state = {
+      Characters,
+      clicked: [],
+      score: 0
+    };
+
+  clickedIcon = id => {
+    this.setState(oldState => ({
+      clicked: [oldState.clicked, id]
+    }));
   };
 
-  iconClick = event => {
-    const icon = event.target.alt;
-    const clickedIcon = this.state.clicked.indexOf(icon) > -1;
+  iconClick = id => {
+    const newClicked = id;
+    this.clickedIcon(newClicked);
+    // const icon = event.target.alt;
+    // const clickedIcon = this.state.clicked.indexOf(icon) > -1;
 
-    if (clickedIcon) {
+    if (this.state.clicked.indexOf(newClicked === -1)) {
       this.setState({
-        Characters: this.state.Characters.sort(function () {
-          return 0.5 - Math.random();
-        }),
+        Characters: this.state.Characters.sort(() => 0.5 - Math.random()),
         clicked: [],
         score: 0
       });
       alert("Not great. You lost.");
     } else {
       this.setState({
-        Characters: this.state.Characters.sort(function () {
-          return 0.5 - Math.random();
-        }),
-        clickedIcon: this.clickedIcon.concat(icon),
+        Characters: this.state.Characters.sort(() => 0.5 - Math.random()),
         score: this.state.score + 1
       },
         () => {
@@ -53,20 +56,23 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <div>
         <Header
           score={this.state.score}
         />
         <Jumbotron />
-        {this.state.Characters.map(character => (
-          <Game
-          imageClick = {this.imageClick}
-          id = {character.id}
-          image = {character.image}
-          />
-        ))}
+        <Wrapper>
+          {this.state.Characters.map(character => (
+            <Game
+              iconClick={this.iconClick}
+              id={character.id}
+              key={character.id}
+              image={character.image}
+            />
+          ))}
+        </Wrapper>
         <Footer />
-      </Wrapper>
+      </div>
     );
   }
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+import "./game.css";
 
 const Game = props => (
-    <div className = "card" onClick = {props.imageClick}>
+    <div className = "card col-2" onClick = {props.iconClick}>
         <div className = "img-container">
-            <img alt = {props.name} src = {props.image} />
+            <img alt = {props.id} src = {props.image} />
         </div>
     </div>
 );

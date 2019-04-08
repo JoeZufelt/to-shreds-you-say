@@ -1,0 +1,23 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.itemLeft {
+    float: left;
+    width: 100px;
+}
+
+.itemCenter {
+	width: 70%;
+}
+
+.itemRight {
+    float: right;
+}
+
+body {
+    font-size: 24px;
+}
+
+  

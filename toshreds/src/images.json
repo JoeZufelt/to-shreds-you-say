@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Amy Wong",
-        "image": "./components/Icons/amy.png"
+        "image": "https://www.shareicon.net/data/256x256/2016/01/06/234425_amy_256x256.png"
     },
     {
         "id": 2,
-        "name": "Calculon",
-        "image": "./components/Icons/calculon.png"
+        "name": "Lieutenant Kif Kroker",
+        "image": "http://imgup.motion-twin.com/muxxu/4/5/3da4ae2c_1537259.jpg"
     },
     {
         "id": 3,
         "name": "Professor Hubert J. Farnsworth",
-        "image": "./components/Icons/farnsworth.png"
+        "image": "https://www.shareicon.net/data/256x256/2016/01/06/234424_farnsworth_256x256.png"
     },
     {
         "id": 4,
         "name": "Philip J. Fry",
-        "image": "./components/Icons/fry.png"
+        "image": "https://futuramatips.files.wordpress.com/2015/07/fry.png?w=604"
     },
     {
         "id": 5,
         "name": "Bender Bending Rodriguez",
-        "image": "./components/Icons/bender.png"
+        "image": "http://www.iconeasy.com/icon/png/Movie%20%26%20TV/Futurama%20Vol.%201/Bender.png"
     },
     {
         "id": 6,
         "name": "Leela",
-        "image": "./components/Icons/leela.png"
+        "image": "http://www.iconeasy.com/icon/png/Movie%20%26%20TV/Futurama%20Vol.%201/Leela.png"
     },
     {
         "id": 7,
         "name": "Mom",
-        "image": "./components/Icons/mom.png"
+        "image": "https://findicons.com/files/icons/1297/futurama_vol_2_the_humans/256/mom.png"
     },
     {
         "id": 8,
         "name": "Lrrr Rule of Omicron Persei 8",
-        "image": "./components/Icons/lurr.png"
+        "image": "https://www.shareicon.net/data/256x256/2016/01/05/233296_lurr_256x256.png"
     },
     {
         "id": 9,
         "name": "Nibbler",
-        "image": "./components/Icons/nibbler.png"
+        "image": "http://icons.veryicon.com/png/Movie%20%26%20TV/Futurama%20Vol.%201/Nibbler.png"
     },
     {
         "id": 10,
-        "name": "Robot Devil",
-        "image": "./components/Icons/devil.png"
+        "name": "Captain Zap Brannigan",
+        "image": "https://www.shareicon.net/data/256x256/2016/01/05/233586_zapp_256x256.png"
     },
     {
         "id": 11,
         "name": "Scruffy the Janitor",
-        "image": "./components/Icons/scruffy.png"
+        "image": "https://www.shareicon.net/data/256x256/2016/01/06/234423_scruffy_256x256.png"
     },
     {
         "id": 12,
         "name": "Dr. John Zoidberg",
-        "image": "./components/Icons/zoidberg.png"
+        "image": "https://findicons.com/files/icons/1316/futurama_vol_1/256/zoidberg.png"
     }
 ]
