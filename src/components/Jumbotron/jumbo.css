@@ -1,7 +1,23 @@
 .jumbotron {
     text-align: center;
-    border-top: 5px solid #ffffff;
     background-color: #dd1a1a;
     color: #f5ed62;
     text-shadow: 2px 2px black;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.parallax {
+    background-image: url("https://images7.alphacoders.com/415/415929.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
