@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bd829f05230f0458f0de",
-    "url": "/to-shreds-you-say/static/css/main.616d4bea.chunk.css"
+    "revision": "8c5416aa12ea0812980f",
+    "url": "/to-shreds-you-say/static/css/main.c993109f.chunk.css"
   },
   {
-    "revision": "bd829f05230f0458f0de",
-    "url": "/to-shreds-you-say/static/js/main.19d9b392.chunk.js"
+    "revision": "8c5416aa12ea0812980f",
+    "url": "/to-shreds-you-say/static/js/main.34eb1065.chunk.js"
   },
   {
     "revision": "268452b646fedb499b77",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/to-shreds-you-say/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "36b087b2c6c93473aab72c5fb27e403b",
+    "revision": "7cf7c0ddc16c7411932f12678f62df42",
     "url": "/to-shreds-you-say/index.html"
   }
 ];
