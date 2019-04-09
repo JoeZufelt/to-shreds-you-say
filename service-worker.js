@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/to-shreds-you-say/precache-manifest.12f806bd392bf87dc7b239785c87ec38.js"
+  "/to-shreds-you-say/precache-manifest.2839ac177371762142fa4ae09cd0e61c.js"
 );
 
 workbox.clientsClaim();
