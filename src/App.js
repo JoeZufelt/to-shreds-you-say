@@ -14,19 +14,11 @@ class App extends Component {
       score: 0
     };
 
-  clickedIcon = id => {
-    this.setState(oldState => ({
-      clicked: [oldState.clicked, id]
-    }));
-  };
+  iconClick = event => {
+    const imageID = event.target.alt;
+    const alreadyClicked = this.state.clicked.indexOf(imageID) > -1;
 
-  iconClick = id => {
-    const newClicked = id;
-    this.clickedIcon(newClicked);
-    // const icon = event.target.alt;
-    // const clickedIcon = this.state.clicked.indexOf(icon) > -1;
-
-    if (this.state.clicked.indexOf(newClicked === -1)) {
+    if (alreadyClicked) {
       this.setState({
         Characters: this.state.Characters.sort(() => 0.5 - Math.random()),
         clicked: [],
@@ -36,6 +28,7 @@ class App extends Component {
     } else {
       this.setState({
         Characters: this.state.Characters.sort(() => 0.5 - Math.random()),
+        clicked: this.state.clicked.concat(imageID),
         score: this.state.score + 1
       },
         () => {

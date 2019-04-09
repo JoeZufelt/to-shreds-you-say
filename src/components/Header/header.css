@@ -1,0 +1,16 @@
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.scoreText{
+    font-size: 30px;
+    padding-right: 100px;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #076788;
+    top: 0;
+    width: 100%;
+}
